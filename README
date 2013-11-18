@@ -8,6 +8,10 @@ Change what folder you're in: cd <foldername> (to go deeper just but backslashes
 
 Go back a folder: cd ..
 
+Edit a file with VIM: vim <filename>
+
+When you're in a folder and want to make git track changes in the folder: git init
+
 Check what's changed and can be commited and pushed: git status
 
 Add a file/folder to commit-stage: git add <file/folder-name> (if folder use <foldername>/ to get all subfolders + files aswell)
@@ -18,4 +22,4 @@ Push the file/folder to the branch (in this case master): git push origin master
 
 Remove a file/folder: if file-> git rm <filename> | if folder-> git rm -rf <foldername>
 
-When you're in a folder and want to make git track changes in the folder: git init
+Rename a file/folder: git mv <oldname> <newname>
