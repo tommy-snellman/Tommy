@@ -1,2 +1,14 @@
 Hello World!
 It's great to be here!
+Unfortunately I'm not any good at using git! :(
+
+But here's some cmds that's useful to know!
+
+Change what folder you're in: cd <foldername> (to go deeper just but backslashes after each folder -> <foldername>/<foldername>etc...)
+
+
+
+When you're in a folder and want to make git track changes in the folder: git init
+
+
+
