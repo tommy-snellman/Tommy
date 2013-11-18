@@ -22,4 +22,4 @@ Push the file/folder to the branch (in this case master): git push origin master
 
 Remove a file/folder: if file-> git rm <filename> | if folder-> git rm -rf <foldername>
 
-Rename a file/folder: git mv <oldname> <newname>
+Rename/Move a file/folder: git mv <oldname> <newname>
