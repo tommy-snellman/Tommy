@@ -10,6 +10,10 @@ Go back a folder: cd ..
 
 Edit a file with VIM: vim <filename>
 
+Save and exit file in VIM: Cmd-mode(esc): ZZ
+
+Exit without saving in VIM: Cmd-mode: q!
+
 When you're in a folder and want to make git track changes in the folder: git init
 
 Check what's changed and can be commited and pushed: git status
