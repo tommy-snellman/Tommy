@@ -1,0 +1,33 @@
+Hello World!
+It's great to be here!
+Unfortunately I'm not any good at using git! :(
+
+But here's some cmds that's useful to know!!
+
+Change what folder you're in: cd <foldername> (to go deeper just but backslashes after each folder -> <foldername>/<foldername>etc...)
+
+Go back a folder: cd ..
+
+Edit a file with VIM: vim <filename>
+
+Save and exit file in VIM: Cmd-mode(esc): ZZ
+
+Exit without saving in VIM: Cmd-mode: q!
+
+When you're in a folder and want to make git track changes in the folder: git init
+
+Check what's changed and can be commited and pushed: git status
+
+Add a file/folder to commit-stage: git add <file/folder-name> (if folder use <foldername>/ to get all subfolders + files aswell)
+
+Add a file/folder to push-stage + commit message: git commit -m "<message>"
+
+Push the file/folder to the branch (in this case master): git push origin master
+
+Remove a file/folder: if file-> git rm <filename> | if folder-> git rm -rf <foldername>
+
+Rename/Move a file/folder: git mv <oldname> <newname>
+
+List available branches: git branch
+
+Change to a branch: git checkout <branchname>
