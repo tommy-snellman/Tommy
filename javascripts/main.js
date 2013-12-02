@@ -12,4 +12,8 @@ jQuery(document).ready(function() {
 			$(".window-" + x + ">").css("font-weight", "bold");
 		}
 	}
+
+	for(var i = 0; i < 15; i++) {
+    	$(".window-" + d + ">").fadeTo('slow', 0.2).fadeTo('slow', 3.0);
+  	}
 });
