@@ -1,1 +1,3 @@
-console.log('This would be the main JS file.');
+jQuery(document).ready(function() {
+	$("window-1").css(":active", false);
+});
