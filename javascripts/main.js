@@ -5,7 +5,7 @@ jQuery(document).ready(function() {
 	for(var i = d + 1; i < 32; i++) {
 		$(".window-" + i).css("display", "none");
 	}
-	for(var x = 1; x < 32; x++) {
+	for(var x = 1; x < 25; x++) {
 		if(x != d) {
 			$(".window-" + x + ">").css("text-decoration", "none");
 		}else {
