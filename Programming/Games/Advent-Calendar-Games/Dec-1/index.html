@@ -25,6 +25,15 @@
 			"altContent", "100%", "100%", "10.0.0", 
 			"expressInstall.swf", 
 			flashvars, params, attributes);
+
+		function setFocusOnFlash() {
+			var fl = document.getElementById("AdventCalendarDec1Game");
+			if(fl) {fl.focus();}
+		}
+		if(swfobject.hasFlashPlayerVersion("9.0.0")) {
+			swfobject.addDomLoadEvent(setFocusOnFlash);
+		}
+
 	</script>
 	<style>
 		html, body { height:100%; overflow:hidden; }
